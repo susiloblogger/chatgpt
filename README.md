@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ChatGPT Desktop for Linux
 
 Aplikasi desktop ringan untuk ChatGPT yang dibangun menggunakan Electron, khusus untuk pengguna Linux. Nikmati pengalaman ChatGPT yang lebih terintegrasi tanpa harus membuka browser setiap saat.
@@ -52,3 +53,7 @@ Proyek ini dilisensikan di bawah [ISC License](LICENSE).
 
 ---
 Dibuat dengan ❤️ untuk komunitas Linux.
+=======
+# chatgpt
+ChatGPT for Debian
+>>>>>>> 51701988c99d4dd50482ec74feb29394b412b9c5
