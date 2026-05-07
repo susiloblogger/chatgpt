@@ -1,0 +1,31 @@
+{
+  "name": "chatgpt-desktop",
+  "version": "1.0.0",
+  "description": "ChatGPT Desktop Application for Linux",
+  "homepage": "https://chatgpt.com",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.openai.chatgpt.desktop",
+    "productName": "ChatGPT",
+    "executableName": "chatgpt",
+    "linux": {
+      "target": "deb",
+      "category": "Utility",
+      "icon": "build/icon.png"
+    }
+  },
+  "keywords": [
+    "chatgpt",
+    "electron"
+  ],
+  "author": "ChatGPT Linux User <user@example.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^41.5.0",
+    "electron-builder": "^26.8.1"
+  }
+}
