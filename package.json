@@ -13,7 +13,7 @@
     "productName": "ChatGPT",
     "executableName": "chatgpt",
     "linux": {
-      "target": "deb, rpm",
+      "target": ["deb", "rpm"],
       "category": "Utility",
       "icon": "build/icon.png"
     }
