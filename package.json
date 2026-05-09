@@ -13,7 +13,7 @@
     "productName": "ChatGPT",
     "executableName": "chatgpt",
     "linux": {
-      "target": "deb",
+      "target": "deb, rpm",
       "category": "Utility",
       "icon": "build/icon.png"
     }
@@ -22,7 +22,7 @@
     "chatgpt",
     "electron"
   ],
-  "author": "ChatGPT Linux User <user@example.com>",
+  "author": "Susilo Linux User <susiloblogger@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "electron": "^41.5.0",
