@@ -5,12 +5,15 @@
 
 Aplikasi desktop ringan untuk **ChatGPT** yang dibangun menggunakan **Electron**, dirancang khusus untuk memberikan pengalaman terbaik bagi pengguna **Linux**. Tidak perlu lagi mencari tab browser yang hilang—ChatGPT kini hadir sebagai aplikasi mandiri di sistem Anda.
 
+> [!IMPORTANT]
+> **Aplikasi ini dikhususkan untuk distribusi Linux berbasis Debian/Ubuntu** (seperti Ubuntu, Linux Mint, Pop!_OS, dll).
+
 ---
 
 ## ✨ Fitur Utama
 
 - 🚀 **Native Experience**: Menjalankan ChatGPT dalam jendela aplikasi mandiri yang bersih.
-- 🐧 **Linux Optimized**: Konfigurasi khusus untuk performa stabil di berbagai distribusi Linux (Ubuntu, Debian, Fedora, dll).
+- 🐧 **Debian/Ubuntu Optimized**: Konfigurasi khusus untuk performa stabil di distribusi Linux berbasis Debian/Ubuntu.
 - 🛠️ **Compatibility**: Menggunakan flag `--no-sandbox` secara default untuk memastikan kompatibilitas maksimal di sistem Linux.
 - 🍱 **Minimalist**: Tanpa menu bar yang mengganggu, memberikan fokus penuh pada percakapan Anda.
 - 📦 **Easy Installer**: Dilengkapi dengan skrip untuk membuat paket `.deb` secara instan.
@@ -23,6 +26,8 @@ Aplikasi desktop ringan untuk **ChatGPT** yang dibangun menggunakan **Electron**
 Pastikan sistem Anda sudah terinstal:
 - [Node.js](https://nodejs.org/) (Rekomendasi versi LTS)
 - [npm](https://www.npmjs.com/)
+- [Electron](https://www.electronjs.org/)
+- [Electron Builder](https://www.electron.build/)
 
 ### Instalasi
 1. Clone repositori ini:
