@@ -16,6 +16,8 @@ Aplikasi desktop ringan untuk **ChatGPT** yang dibangun menggunakan **Electron**
 - 🐧 **Debian/Ubuntu Optimized**: Konfigurasi khusus untuk performa stabil di distribusi Linux berbasis Debian/Ubuntu.
 - 🛠️ **Compatibility**: Menggunakan flag `--no-sandbox` secara default untuk memastikan kompatibilitas maksimal di sistem Linux.
 - 🍱 **Minimalist**: Tanpa menu bar yang mengganggu, memberikan fokus penuh pada percakapan Anda.
+- 🖱️ **ContextMenu Support**: Mendukung klik kanan untuk operasi standar seperti **Copy**, **Cut**, **Paste**, **Select All**, dan **Inspect Element** (untuk inspeksi halaman).
+- 🌐 **External Links Redirect**: Tautan luar/eksternal secara otomatis dialihkan untuk dibuka pada aplikasi browser default sistem Anda (menjaga sesi ChatGPT tetap bersih).
 - 📦 **Easy Installer**: Dilengkapi dengan skrip untuk membuat paket `.deb` secara instan.
 
 ---
